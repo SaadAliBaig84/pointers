@@ -5,12 +5,13 @@ int main()
 {
 	
 
-    int arr2[4]={0};
+    
 	
 	printf("Enter the number of elements: ");
 	int n;
 	scanf("%d", &n);
 	int array[n];
+	int arr2[n];
 	for(int i=0; i<n; i++)
 	{
 		printf("Enter element %d: ", i+1);
